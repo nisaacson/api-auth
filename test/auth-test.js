@@ -46,7 +46,8 @@ describe('Api Auth', function () {
         db = dbReply
         var authData = {
           config: config,
-          db: db
+          db: db,
+          passport: passport
         }
         authLib(authData)
         setRoutes(app)
