@@ -1,0 +1,24 @@
+{
+  "name": "api-auth",
+  "version": "1.0.0",
+  "description": "Use couch-profiles to perform basic auth in express apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "docparse"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "passport-http": "~0.2.1",
+    "passport": "~0.1.16"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.8.2"
+  }
+}
