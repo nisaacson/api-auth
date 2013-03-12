@@ -1,6 +1,5 @@
 var bcrypt = require('bcrypt-nodejs')
 var couchProfile = require('couch-profile')
-var passport = require('passport')
 var BasicStrategy = require('passport-http').BasicStrategy
 module.exports = function (data) {
   var db = data.db

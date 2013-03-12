@@ -1,6 +1,6 @@
 {
   "name": "api-auth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use couch-profiles to perform basic auth in express apps",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,12 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "passport-http": "~0.2.1",
-    "passport": "~0.1.16",
     "should": "~1.2.2",
     "couch-profile": "~1.0.15"
   },
   "devDependencies": {
-    "mocha": "git://github.com/bitmage/mocha.git",
+    "passport": "~0.1.16",
+    "mocha": "git://github.com/nisaacson/mocha.git",
     "portfinder": "~0.2.1",
     "express": "~3.1.0",
     "cradle": "~0.6.4",
